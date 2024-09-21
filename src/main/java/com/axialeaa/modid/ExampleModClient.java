@@ -1,7 +1,7 @@
 package com.axialeaa.modid;
 
 import it.unimi.dsi.fastutil.objects.Object2ObjectArrayMap;
-import net.fabricmc.api.ModInitializer;
+import net.fabricmc.api.ClientModInitializer;
 import net.minecraft.world.level.material.MapColor;
 
 import java.io.FileOutputStream;
@@ -13,12 +13,12 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.stream.Stream;
 
-public class ExampleMod implements ModInitializer {
+public class ExampleModClient implements ClientModInitializer {
 
 	private static final Map<String, String> REFERENCES = new Object2ObjectArrayMap<>();
 
 	@Override
-	public void onInitialize() {
+	public void onInitializeClient() {
 		REFERENCES.clear();
 
 		try (OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream("README.md"))) {
@@ -39,6 +39,10 @@ public class ExampleMod implements ModInitializer {
 		return stream.toList();
 	}
 
+	private static String toHexString(int i) {
+		return String.format("%06X", i);
+	}
+
 	private static void printTextWithReferences(OutputStreamWriter writer) throws IOException {
 		List<Field> fields = getMapColorFields();
 
@@ -56,7 +60,7 @@ public class ExampleMod implements ModInitializer {
 				throw new RuntimeException(e);
 			}
 
-			String color = Integer.toHexString(mapColor.col);
+			String color = toHexString(mapColor.col);
 			String markdownLinkRef = name.toLowerCase(Locale.ROOT).replace('_', '-');
 
 			String imageLink = "[<img valign='middle' src='https://readme-swatches.vercel.app/%s?style=round'/>`MapColor.%s`][%s]";
