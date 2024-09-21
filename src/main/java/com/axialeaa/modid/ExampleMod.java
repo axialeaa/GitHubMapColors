@@ -1,24 +1,86 @@
 package com.axialeaa.modid;
 
+import it.unimi.dsi.fastutil.objects.Object2ObjectArrayMap;
 import net.fabricmc.api.ModInitializer;
+import net.minecraft.block.MapColor;
 
-import net.minecraft.util.Identifier;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.lang.reflect.Field;
+import java.util.List;
+import java.util.Locale;
+import java.util.Map;
+import java.util.stream.Stream;
 
 public class ExampleMod implements ModInitializer {
 
-	public static final String MOD_ID = "mod-id";
-	public static final String MOD_NAME = "Example Mod";
-	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_NAME);
+	private static final Map<String, String> REFERENCES = new Object2ObjectArrayMap<>();
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("{} initialized! Insert funny joke here.", MOD_NAME);
+		REFERENCES.clear();
+
+		try (OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream("README.md"))) {
+			printTextWithReferences(writer);
+			writer.write("\n");
+			printLinks(writer);
+        } catch (IOException e) {
+			throw new RuntimeException(e);
+		}
 	}
 
-	public static Identifier id(String name) {
-		return Identifier.of(MOD_ID, name);
+	private static List<Field> getMapColorFields() {
+		Field[] fields = MapColor.class.getDeclaredFields();
+
+		Stream<Field> stream = Stream.of(fields);
+		stream = stream.filter(field -> field.getType() == MapColor.class);
+
+		return stream.toList();
+	}
+
+	private static void printTextWithReferences(OutputStreamWriter writer) throws IOException {
+		List<Field> fields = getMapColorFields();
+
+		for (Field field : fields) {
+			String name = field.getName();
+
+			if (name.equals("CLEAR"))
+				continue;
+
+			MapColor mapColor;
+
+			try {
+				mapColor = (MapColor) field.get(MapColor.CLEAR);
+			} catch (IllegalAccessException e) {
+				throw new RuntimeException(e);
+			}
+
+			String color = Integer.toHexString(mapColor.color);
+			String markdownLinkRef = name.toLowerCase(Locale.ROOT).replace('_', '-');
+
+			String imageLink = "[<img valign='middle' src='https://readme-swatches.vercel.app/%s?style=round'/>`MapColor.%s`][%s]";
+
+			writer.write(imageLink.formatted(color, name, markdownLinkRef));
+
+			if (fields.indexOf(field) < fields.size() - 1)
+				writer.write("<br>");
+
+			writer.write("\n");
+
+			REFERENCES.put(markdownLinkRef, color);
+		}
+	}
+
+	private static void printLinks(OutputStreamWriter writer) throws IOException {
+		String link = "[%s]: https://www.colorhexa.com/%s";
+
+		for (String ref : REFERENCES.keySet()) {
+			String color = REFERENCES.get(ref);
+
+			writer.write(link.formatted(ref, color));
+			writer.write("\n");
+		}
 	}
 
 }

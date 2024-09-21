@@ -28,13 +28,9 @@
 			}
 		}
 	},
-	"mixins": [
-		"mod-id.mixins.json"
-	],
 	"depends": {
 		"fabricloader": ">=0.15.10",
 		"minecraft": "~1.21",
-		"java": ">=21",
-		"fabric-api": "*"
+		"java": ">=21"
 	}
 }
