@@ -2,7 +2,7 @@ package com.axialeaa.modid;
 
 import it.unimi.dsi.fastutil.objects.Object2ObjectArrayMap;
 import net.fabricmc.api.ModInitializer;
-import net.minecraft.block.MapColor;
+import net.minecraft.world.level.material.MapColor;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -45,18 +45,18 @@ public class ExampleMod implements ModInitializer {
 		for (Field field : fields) {
 			String name = field.getName();
 
-			if (name.equals("CLEAR"))
+			if (name.equals("NONE"))
 				continue;
 
 			MapColor mapColor;
 
 			try {
-				mapColor = (MapColor) field.get(MapColor.CLEAR);
+				mapColor = (MapColor) field.get(MapColor.NONE);
 			} catch (IllegalAccessException e) {
 				throw new RuntimeException(e);
 			}
 
-			String color = Integer.toHexString(mapColor.color);
+			String color = Integer.toHexString(mapColor.col);
 			String markdownLinkRef = name.toLowerCase(Locale.ROOT).replace('_', '-');
 
 			String imageLink = "[<img valign='middle' src='https://readme-swatches.vercel.app/%s?style=round'/>`MapColor.%s`][%s]";
