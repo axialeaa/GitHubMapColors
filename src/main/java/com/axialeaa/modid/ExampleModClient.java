@@ -22,7 +22,7 @@ public class ExampleModClient implements ClientModInitializer {
 		REFERENCES.clear();
 
 		try (OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream("README.md"))) {
-			printTextWithReferences(writer);
+			printColorsWithReferences(writer);
 			writer.write("\n");
 			printLinks(writer);
         } catch (IOException e) {
@@ -39,11 +39,11 @@ public class ExampleModClient implements ClientModInitializer {
 		return stream.toList();
 	}
 
-	private static String toHexString(int i) {
+	private static String toPaddedHexString(int i) {
 		return String.format("%06X", i);
 	}
 
-	private static void printTextWithReferences(OutputStreamWriter writer) throws IOException {
+	private static void printColorsWithReferences(OutputStreamWriter writer) throws IOException {
 		List<Field> fields = getMapColorFields();
 
 		for (Field field : fields) {
@@ -65,12 +65,14 @@ public class ExampleModClient implements ClientModInitializer {
 
 			for (MapColor.Brightness brightness : MapColor.Brightness.values()) {
 				int argb = mapColor.calculateRGBColor(brightness);
-				argb = argb & ~0xFF000000;
+				argb = argb & 0xFFFFFF;
 
-				String color = toHexString(argb);
+				String color = toPaddedHexString(argb);
 				String withBrightness = reference + "-" + brightness.toString().toLowerCase(Locale.ROOT);
 
 				writer.write(imageLink.formatted(color, withBrightness));
+				newLine(writer);
+
 				REFERENCES.put(withBrightness, color);
 			}
 
@@ -79,7 +81,7 @@ public class ExampleModClient implements ClientModInitializer {
 			if (fields.indexOf(field) < fields.size() - 1)
 				writer.write("<br>");
 
-			writer.write("\n");
+			newLine(writer);
 		}
 	}
 
@@ -90,8 +92,12 @@ public class ExampleModClient implements ClientModInitializer {
 			String color = REFERENCES.get(ref);
 
 			writer.write(link.formatted(ref, color));
-			writer.write("\n");
+			newLine(writer);
 		}
+	}
+
+	private static void newLine(OutputStreamWriter writer) throws IOException {
+		writer.write("\n");
 	}
 
 }
