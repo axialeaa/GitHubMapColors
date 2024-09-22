@@ -22,7 +22,7 @@ public class ExampleModClient implements ClientModInitializer {
 		REFERENCES.clear();
 
 		try (OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream("README.md"))) {
-			printColorsWithReferences(writer);
+			printMapColors(writer);
 			writer.write("\n");
 			printLinks(writer);
         } catch (IOException e) {
@@ -43,7 +43,7 @@ public class ExampleModClient implements ClientModInitializer {
 		return String.format("%06X", i);
 	}
 
-	private static void printColorsWithReferences(OutputStreamWriter writer) throws IOException {
+	private static void printMapColors(OutputStreamWriter writer) throws IOException {
 		List<Field> fields = getMapColorFields();
 
 		for (Field field : fields) {
@@ -60,21 +60,7 @@ public class ExampleModClient implements ClientModInitializer {
 				throw new RuntimeException(e);
 			}
 
-			String imageLink = "[<img valign='middle' src='https://readme-swatches.vercel.app/%s?style=round'/>][%s]";
-			String reference = name.toLowerCase(Locale.ROOT).replace('_', '-');
-
-			for (MapColor.Brightness brightness : MapColor.Brightness.values()) {
-				int argb = mapColor.calculateRGBColor(brightness);
-				argb = argb & 0xFFFFFF;
-
-				String color = toPaddedHexString(argb);
-				String withBrightness = reference + "-" + brightness.toString().toLowerCase(Locale.ROOT);
-
-				writer.write(imageLink.formatted(color, withBrightness));
-				newLine(writer);
-
-				REFERENCES.put(withBrightness, color);
-			}
+			printColorsWithReferences(name, mapColor, writer);
 
 			writer.write("`MapColor.%s`".formatted(name));
 
@@ -82,6 +68,23 @@ public class ExampleModClient implements ClientModInitializer {
 				writer.write("<br>");
 
 			newLine(writer);
+		}
+	}
+
+	private static void printColorsWithReferences(String fieldName, MapColor mapColor, OutputStreamWriter writer) throws IOException {
+		String imageLink = "[<img valign='middle' src='https://readme-swatches.vercel.app/%s'/>][%s]";
+
+		for (MapColor.Brightness brightness : MapColor.Brightness.values()) {
+			int argb = mapColor.calculateRGBColor(brightness);
+			argb = argb & 0xFFFFFF;
+
+			String color = toPaddedHexString(argb);
+
+			String formatted = "%s_%s".formatted(fieldName, brightness);
+			String lowerCase = formatted.toLowerCase(Locale.ROOT).replace('_', '-');
+
+			writer.write(imageLink.formatted(color, lowerCase));
+			REFERENCES.put(lowerCase, color);
 		}
 	}
 

@@ -1,308 +1,64 @@
-[<img valign='middle' src='https://readme-swatches.vercel.app/277D59?style=round'/>][grass-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/30996D?style=round'/>][grass-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/38B27F?style=round'/>][grass-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/1D5E43?style=round'/>][grass-lowest]
-`MapColor.GRASS`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/73A4AE?style=round'/>][sand-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/8CC9D5?style=round'/>][sand-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/A3E9F7?style=round'/>][sand-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/567B82?style=round'/>][sand-lowest]
-`MapColor.SAND`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/8C8C8C?style=round'/>][wool-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/ABABAB?style=round'/>][wool-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/C7C7C7?style=round'/>][wool-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/696969?style=round'/>][wool-lowest]
-`MapColor.WOOL`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/0000B4?style=round'/>][fire-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/0000DC?style=round'/>][fire-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/0000FF?style=round'/>][fire-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/000087?style=round'/>][fire-lowest]
-`MapColor.FIRE`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/B47070?style=round'/>][ice-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/DC8A8A?style=round'/>][ice-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/FFA0A0?style=round'/>][ice-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/875454?style=round'/>][ice-lowest]
-`MapColor.ICE`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/757575?style=round'/>][metal-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/909090?style=round'/>][metal-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/A7A7A7?style=round'/>][metal-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/585858?style=round'/>][metal-lowest]
-`MapColor.METAL`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/005700?style=round'/>][plant-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/006A00?style=round'/>][plant-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/007C00?style=round'/>][plant-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/004100?style=round'/>][plant-lowest]
-`MapColor.PLANT`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/B4B4B4?style=round'/>][snow-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/DCDCDC?style=round'/>][snow-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/FFFFFF?style=round'/>][snow-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/878787?style=round'/>][snow-lowest]
-`MapColor.SNOW`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/817673?style=round'/>][clay-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/9E908D?style=round'/>][clay-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/B8A8A4?style=round'/>][clay-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/615856?style=round'/>][clay-lowest]
-`MapColor.CLAY`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/364C6A?style=round'/>][dirt-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/425E82?style=round'/>][dirt-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/4D6D97?style=round'/>][dirt-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/28394F?style=round'/>][dirt-lowest]
-`MapColor.DIRT`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/4F4F4F?style=round'/>][stone-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/606060?style=round'/>][stone-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/707070?style=round'/>][stone-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/3B3B3B?style=round'/>][stone-lowest]
-`MapColor.STONE`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/B42D2D?style=round'/>][water-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/DC3737?style=round'/>][water-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/FF4040?style=round'/>][water-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/872121?style=round'/>][water-lowest]
-`MapColor.WATER`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/325464?style=round'/>][wood-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/3E667B?style=round'/>][wood-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/48778F?style=round'/>][wood-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/263F4B?style=round'/>][wood-lowest]
-`MapColor.WOOD`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/ACB1B4?style=round'/>][quartz-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/D3D9DC?style=round'/>][quartz-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/F5FCFF?style=round'/>][quartz-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/818587?style=round'/>][quartz-lowest]
-`MapColor.QUARTZ`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/245998?style=round'/>][color-orange-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/2C6DBA?style=round'/>][color-orange-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/337FD8?style=round'/>][color-orange-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/1B4372?style=round'/>][color-orange-lowest]
-`MapColor.COLOR_ORANGE`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/98357D?style=round'/>][color-magenta-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/BA4199?style=round'/>][color-magenta-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/D84CB2?style=round'/>][color-magenta-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/72285E?style=round'/>][color-magenta-lowest]
-`MapColor.COLOR_MAGENTA`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/986C48?style=round'/>][color-light-blue-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/BA8458?style=round'/>][color-light-blue-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/D89966?style=round'/>][color-light-blue-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/725136?style=round'/>][color-light-blue-lowest]
-`MapColor.COLOR_LIGHT_BLUE`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/24A1A1?style=round'/>][color-yellow-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/2CC5C5?style=round'/>][color-yellow-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/33E5E5?style=round'/>][color-yellow-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/1B7979?style=round'/>][color-yellow-lowest]
-`MapColor.COLOR_YELLOW`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/119059?style=round'/>][color-light-green-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/15B06D?style=round'/>][color-light-green-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/19CC7F?style=round'/>][color-light-green-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/0D6C43?style=round'/>][color-light-green-lowest]
-`MapColor.COLOR_LIGHT_GREEN`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/7459AA?style=round'/>][color-pink-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/8E6DD0?style=round'/>][color-pink-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/A57FF2?style=round'/>][color-pink-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/574380?style=round'/>][color-pink-lowest]
-`MapColor.COLOR_PINK`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/353535?style=round'/>][color-gray-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/414141?style=round'/>][color-gray-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/4C4C4C?style=round'/>][color-gray-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/282828?style=round'/>][color-gray-lowest]
-`MapColor.COLOR_GRAY`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/6C6C6C?style=round'/>][color-light-gray-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/848484?style=round'/>][color-light-gray-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/999999?style=round'/>][color-light-gray-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/515151?style=round'/>][color-light-gray-lowest]
-`MapColor.COLOR_LIGHT_GRAY`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/6C5935?style=round'/>][color-cyan-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/846D41?style=round'/>][color-cyan-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/997F4C?style=round'/>][color-cyan-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/514328?style=round'/>][color-cyan-lowest]
-`MapColor.COLOR_CYAN`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/7D2C59?style=round'/>][color-purple-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/99366D?style=round'/>][color-purple-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/B23F7F?style=round'/>][color-purple-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/5E2143?style=round'/>][color-purple-lowest]
-`MapColor.COLOR_PURPLE`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/7D3524?style=round'/>][color-blue-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/99412C?style=round'/>][color-blue-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/B24C33?style=round'/>][color-blue-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/5E281B?style=round'/>][color-blue-lowest]
-`MapColor.COLOR_BLUE`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/243548?style=round'/>][color-brown-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/2C4158?style=round'/>][color-brown-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/334C66?style=round'/>][color-brown-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/1B2836?style=round'/>][color-brown-lowest]
-`MapColor.COLOR_BROWN`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/245948?style=round'/>][color-green-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/2C6D58?style=round'/>][color-green-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/337F66?style=round'/>][color-green-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/1B4336?style=round'/>][color-green-lowest]
-`MapColor.COLOR_GREEN`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/24246C?style=round'/>][color-red-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/2C2C84?style=round'/>][color-red-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/333399?style=round'/>][color-red-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/1B1B51?style=round'/>][color-red-lowest]
-`MapColor.COLOR_RED`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/111111?style=round'/>][color-black-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/151515?style=round'/>][color-black-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/191919?style=round'/>][color-black-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/0D0D0D?style=round'/>][color-black-lowest]
-`MapColor.COLOR_BLACK`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/36A8B0?style=round'/>][gold-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/42CDD7?style=round'/>][gold-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/4DEEFA?style=round'/>][gold-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/287E84?style=round'/>][gold-lowest]
-`MapColor.GOLD`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/969A40?style=round'/>][diamond-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/B7BC4F?style=round'/>][diamond-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/D5DB5C?style=round'/>][diamond-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/707330?style=round'/>][diamond-lowest]
-`MapColor.DIAMOND`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/B45A34?style=round'/>][lapis-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/DC6E3F?style=round'/>][lapis-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/FF804A?style=round'/>][lapis-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/874327?style=round'/>][lapis-lowest]
-`MapColor.LAPIS`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/289900?style=round'/>][emerald-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/32BB00?style=round'/>][emerald-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/3AD900?style=round'/>][emerald-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/1E7200?style=round'/>][emerald-lowest]
-`MapColor.EMERALD`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/223C5B?style=round'/>][podzol-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/2A4A6F?style=round'/>][podzol-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/315681?style=round'/>][podzol-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/192D44?style=round'/>][podzol-lowest]
-`MapColor.PODZOL`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/00014F?style=round'/>][nether-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/000160?style=round'/>][nether-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/000270?style=round'/>][nether-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/00013B?style=round'/>][nether-lowest]
-`MapColor.NETHER`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/717C93?style=round'/>][terracotta-white-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/8A98B4?style=round'/>][terracotta-white-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/A1B1D1?style=round'/>][terracotta-white-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/555D6E?style=round'/>][terracotta-white-lowest]
-`MapColor.TERRACOTTA_WHITE`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/193970?style=round'/>][terracotta-orange-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/1F4689?style=round'/>][terracotta-orange-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/24529F?style=round'/>][terracotta-orange-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/132B54?style=round'/>][terracotta-orange-lowest]
-`MapColor.TERRACOTTA_ORANGE`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/4C3D69?style=round'/>][terracotta-magenta-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/5D4B80?style=round'/>][terracotta-magenta-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/6C5795?style=round'/>][terracotta-magenta-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/392E4E?style=round'/>][terracotta-magenta-lowest]
-`MapColor.TERRACOTTA_MAGENTA`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/614C4F?style=round'/>][terracotta-light-blue-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/775D60?style=round'/>][terracotta-light-blue-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/8A6C70?style=round'/>][terracotta-light-blue-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/49393B?style=round'/>][terracotta-light-blue-lowest]
-`MapColor.TERRACOTTA_LIGHT_BLUE`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/195D83?style=round'/>][terracotta-yellow-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/1F72A0?style=round'/>][terracotta-yellow-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/2485BA?style=round'/>][terracotta-yellow-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/134662?style=round'/>][terracotta-yellow-lowest]
-`MapColor.TERRACOTTA_YELLOW`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/255248?style=round'/>][terracotta-light-green-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/2D6458?style=round'/>][terracotta-light-green-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/357567?style=round'/>][terracotta-light-green-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/1C3D36?style=round'/>][terracotta-light-green-lowest]
-`MapColor.TERRACOTTA_LIGHT_GREEN`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/373670?style=round'/>][terracotta-pink-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/43428A?style=round'/>][terracotta-pink-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/4E4DA0?style=round'/>][terracotta-pink-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/292854?style=round'/>][terracotta-pink-lowest]
-`MapColor.TERRACOTTA_PINK`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/181C28?style=round'/>][terracotta-gray-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/1E2331?style=round'/>][terracotta-gray-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/232939?style=round'/>][terracotta-gray-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/12151E?style=round'/>][terracotta-gray-lowest]
-`MapColor.TERRACOTTA_GRAY`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/454B5F?style=round'/>][terracotta-light-gray-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/545C74?style=round'/>][terracotta-light-gray-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/626B87?style=round'/>][terracotta-light-gray-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/333847?style=round'/>][terracotta-light-gray-lowest]
-`MapColor.TERRACOTTA_LIGHT_GRAY`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/40403D?style=round'/>][terracotta-cyan-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/4F4F4B?style=round'/>][terracotta-cyan-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/5C5C57?style=round'/>][terracotta-cyan-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/30302E?style=round'/>][terracotta-cyan-lowest]
-`MapColor.TERRACOTTA_CYAN`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/3E3356?style=round'/>][terracotta-purple-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/4B3E69?style=round'/>][terracotta-purple-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/58497A?style=round'/>][terracotta-purple-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/2E2640?style=round'/>][terracotta-purple-lowest]
-`MapColor.TERRACOTTA_PURPLE`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/402B35?style=round'/>][terracotta-blue-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/4F3541?style=round'/>][terracotta-blue-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/5C3E4C?style=round'/>][terracotta-blue-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/302028?style=round'/>][terracotta-blue-lowest]
-`MapColor.TERRACOTTA_BLUE`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/182335?style=round'/>][terracotta-brown-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/1E2B41?style=round'/>][terracotta-brown-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/23324C?style=round'/>][terracotta-brown-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/121A28?style=round'/>][terracotta-brown-lowest]
-`MapColor.TERRACOTTA_BROWN`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/1D3935?style=round'/>][terracotta-green-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/244641?style=round'/>][terracotta-green-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/2A524C?style=round'/>][terracotta-green-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/162B28?style=round'/>][terracotta-green-lowest]
-`MapColor.TERRACOTTA_GREEN`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/202A64?style=round'/>][terracotta-red-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/27337A?style=round'/>][terracotta-red-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/2E3C8E?style=round'/>][terracotta-red-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/181F4B?style=round'/>][terracotta-red-lowest]
-`MapColor.TERRACOTTA_RED`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/0B0F1A?style=round'/>][terracotta-black-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/0D121F?style=round'/>][terracotta-black-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/101625?style=round'/>][terracotta-black-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/080B13?style=round'/>][terracotta-black-lowest]
-`MapColor.TERRACOTTA_BLACK`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/222185?style=round'/>][crimson-nylium-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/2A29A3?style=round'/>][crimson-nylium-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/3130BD?style=round'/>][crimson-nylium-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/191964?style=round'/>][crimson-nylium-lowest]
-`MapColor.CRIMSON_NYLIUM`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/442C68?style=round'/>][crimson-stem-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/53367F?style=round'/>][crimson-stem-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/613F94?style=round'/>][crimson-stem-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/33214E?style=round'/>][crimson-stem-lowest]
-`MapColor.CRIMSON_STEM`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/141140?style=round'/>][crimson-hyphae-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/19154F?style=round'/>][crimson-hyphae-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/1D195C?style=round'/>][crimson-hyphae-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/0F0D30?style=round'/>][crimson-hyphae-lowest]
-`MapColor.CRIMSON_HYPHAE`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/5E580F?style=round'/>][warped-nylium-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/736C12?style=round'/>][warped-nylium-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/867E16?style=round'/>][warped-nylium-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/46420B?style=round'/>][warped-nylium-lowest]
-`MapColor.WARPED_NYLIUM`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/626428?style=round'/>][warped-stem-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/787A32?style=round'/>][warped-stem-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/8C8E3A?style=round'/>][warped-stem-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/4A4B1E?style=round'/>][warped-stem-lowest]
-`MapColor.WARPED_STEM`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/2B1F3C?style=round'/>][warped-hyphae-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/35254A?style=round'/>][warped-hyphae-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/3E2C56?style=round'/>][warped-hyphae-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/20172D?style=round'/>][warped-hyphae-lowest]
-`MapColor.WARPED_HYPHAE`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/5D7F0E?style=round'/>][warped-wart-block-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/729B11?style=round'/>][warped-wart-block-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/85B414?style=round'/>][warped-wart-block-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/465F0A?style=round'/>][warped-wart-block-lowest]
-`MapColor.WARPED_WART_BLOCK`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/464646?style=round'/>][deepslate-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/565656?style=round'/>][deepslate-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/646464?style=round'/>][deepslate-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/343434?style=round'/>][deepslate-lowest]
-`MapColor.DEEPSLATE`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/677B98?style=round'/>][raw-iron-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/7E96BA?style=round'/>][raw-iron-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/93AFD8?style=round'/>][raw-iron-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/4D5C72?style=round'/>][raw-iron-lowest]
-`MapColor.RAW_IRON`<br>
-[<img valign='middle' src='https://readme-swatches.vercel.app/697559?style=round'/>][glow-lichen-low]
-[<img valign='middle' src='https://readme-swatches.vercel.app/81906D?style=round'/>][glow-lichen-normal]
-[<img valign='middle' src='https://readme-swatches.vercel.app/96A77F?style=round'/>][glow-lichen-high]
-[<img valign='middle' src='https://readme-swatches.vercel.app/4F5843?style=round'/>][glow-lichen-lowest]
-`MapColor.GLOW_LICHEN`
+[<img valign='middle' src='https://readme-swatches.vercel.app/277D59'/>][grass-low][<img valign='middle' src='https://readme-swatches.vercel.app/30996D'/>][grass-normal][<img valign='middle' src='https://readme-swatches.vercel.app/38B27F'/>][grass-high][<img valign='middle' src='https://readme-swatches.vercel.app/1D5E43'/>][grass-lowest]`MapColor.GRASS`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/73A4AE'/>][sand-low][<img valign='middle' src='https://readme-swatches.vercel.app/8CC9D5'/>][sand-normal][<img valign='middle' src='https://readme-swatches.vercel.app/A3E9F7'/>][sand-high][<img valign='middle' src='https://readme-swatches.vercel.app/567B82'/>][sand-lowest]`MapColor.SAND`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/8C8C8C'/>][wool-low][<img valign='middle' src='https://readme-swatches.vercel.app/ABABAB'/>][wool-normal][<img valign='middle' src='https://readme-swatches.vercel.app/C7C7C7'/>][wool-high][<img valign='middle' src='https://readme-swatches.vercel.app/696969'/>][wool-lowest]`MapColor.WOOL`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/0000B4'/>][fire-low][<img valign='middle' src='https://readme-swatches.vercel.app/0000DC'/>][fire-normal][<img valign='middle' src='https://readme-swatches.vercel.app/0000FF'/>][fire-high][<img valign='middle' src='https://readme-swatches.vercel.app/000087'/>][fire-lowest]`MapColor.FIRE`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/B47070'/>][ice-low][<img valign='middle' src='https://readme-swatches.vercel.app/DC8A8A'/>][ice-normal][<img valign='middle' src='https://readme-swatches.vercel.app/FFA0A0'/>][ice-high][<img valign='middle' src='https://readme-swatches.vercel.app/875454'/>][ice-lowest]`MapColor.ICE`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/757575'/>][metal-low][<img valign='middle' src='https://readme-swatches.vercel.app/909090'/>][metal-normal][<img valign='middle' src='https://readme-swatches.vercel.app/A7A7A7'/>][metal-high][<img valign='middle' src='https://readme-swatches.vercel.app/585858'/>][metal-lowest]`MapColor.METAL`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/005700'/>][plant-low][<img valign='middle' src='https://readme-swatches.vercel.app/006A00'/>][plant-normal][<img valign='middle' src='https://readme-swatches.vercel.app/007C00'/>][plant-high][<img valign='middle' src='https://readme-swatches.vercel.app/004100'/>][plant-lowest]`MapColor.PLANT`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/B4B4B4'/>][snow-low][<img valign='middle' src='https://readme-swatches.vercel.app/DCDCDC'/>][snow-normal][<img valign='middle' src='https://readme-swatches.vercel.app/FFFFFF'/>][snow-high][<img valign='middle' src='https://readme-swatches.vercel.app/878787'/>][snow-lowest]`MapColor.SNOW`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/817673'/>][clay-low][<img valign='middle' src='https://readme-swatches.vercel.app/9E908D'/>][clay-normal][<img valign='middle' src='https://readme-swatches.vercel.app/B8A8A4'/>][clay-high][<img valign='middle' src='https://readme-swatches.vercel.app/615856'/>][clay-lowest]`MapColor.CLAY`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/364C6A'/>][dirt-low][<img valign='middle' src='https://readme-swatches.vercel.app/425E82'/>][dirt-normal][<img valign='middle' src='https://readme-swatches.vercel.app/4D6D97'/>][dirt-high][<img valign='middle' src='https://readme-swatches.vercel.app/28394F'/>][dirt-lowest]`MapColor.DIRT`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/4F4F4F'/>][stone-low][<img valign='middle' src='https://readme-swatches.vercel.app/606060'/>][stone-normal][<img valign='middle' src='https://readme-swatches.vercel.app/707070'/>][stone-high][<img valign='middle' src='https://readme-swatches.vercel.app/3B3B3B'/>][stone-lowest]`MapColor.STONE`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/B42D2D'/>][water-low][<img valign='middle' src='https://readme-swatches.vercel.app/DC3737'/>][water-normal][<img valign='middle' src='https://readme-swatches.vercel.app/FF4040'/>][water-high][<img valign='middle' src='https://readme-swatches.vercel.app/872121'/>][water-lowest]`MapColor.WATER`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/325464'/>][wood-low][<img valign='middle' src='https://readme-swatches.vercel.app/3E667B'/>][wood-normal][<img valign='middle' src='https://readme-swatches.vercel.app/48778F'/>][wood-high][<img valign='middle' src='https://readme-swatches.vercel.app/263F4B'/>][wood-lowest]`MapColor.WOOD`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/ACB1B4'/>][quartz-low][<img valign='middle' src='https://readme-swatches.vercel.app/D3D9DC'/>][quartz-normal][<img valign='middle' src='https://readme-swatches.vercel.app/F5FCFF'/>][quartz-high][<img valign='middle' src='https://readme-swatches.vercel.app/818587'/>][quartz-lowest]`MapColor.QUARTZ`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/245998'/>][color-orange-low][<img valign='middle' src='https://readme-swatches.vercel.app/2C6DBA'/>][color-orange-normal][<img valign='middle' src='https://readme-swatches.vercel.app/337FD8'/>][color-orange-high][<img valign='middle' src='https://readme-swatches.vercel.app/1B4372'/>][color-orange-lowest]`MapColor.COLOR_ORANGE`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/98357D'/>][color-magenta-low][<img valign='middle' src='https://readme-swatches.vercel.app/BA4199'/>][color-magenta-normal][<img valign='middle' src='https://readme-swatches.vercel.app/D84CB2'/>][color-magenta-high][<img valign='middle' src='https://readme-swatches.vercel.app/72285E'/>][color-magenta-lowest]`MapColor.COLOR_MAGENTA`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/986C48'/>][color-light-blue-low][<img valign='middle' src='https://readme-swatches.vercel.app/BA8458'/>][color-light-blue-normal][<img valign='middle' src='https://readme-swatches.vercel.app/D89966'/>][color-light-blue-high][<img valign='middle' src='https://readme-swatches.vercel.app/725136'/>][color-light-blue-lowest]`MapColor.COLOR_LIGHT_BLUE`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/24A1A1'/>][color-yellow-low][<img valign='middle' src='https://readme-swatches.vercel.app/2CC5C5'/>][color-yellow-normal][<img valign='middle' src='https://readme-swatches.vercel.app/33E5E5'/>][color-yellow-high][<img valign='middle' src='https://readme-swatches.vercel.app/1B7979'/>][color-yellow-lowest]`MapColor.COLOR_YELLOW`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/119059'/>][color-light-green-low][<img valign='middle' src='https://readme-swatches.vercel.app/15B06D'/>][color-light-green-normal][<img valign='middle' src='https://readme-swatches.vercel.app/19CC7F'/>][color-light-green-high][<img valign='middle' src='https://readme-swatches.vercel.app/0D6C43'/>][color-light-green-lowest]`MapColor.COLOR_LIGHT_GREEN`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/7459AA'/>][color-pink-low][<img valign='middle' src='https://readme-swatches.vercel.app/8E6DD0'/>][color-pink-normal][<img valign='middle' src='https://readme-swatches.vercel.app/A57FF2'/>][color-pink-high][<img valign='middle' src='https://readme-swatches.vercel.app/574380'/>][color-pink-lowest]`MapColor.COLOR_PINK`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/353535'/>][color-gray-low][<img valign='middle' src='https://readme-swatches.vercel.app/414141'/>][color-gray-normal][<img valign='middle' src='https://readme-swatches.vercel.app/4C4C4C'/>][color-gray-high][<img valign='middle' src='https://readme-swatches.vercel.app/282828'/>][color-gray-lowest]`MapColor.COLOR_GRAY`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/6C6C6C'/>][color-light-gray-low][<img valign='middle' src='https://readme-swatches.vercel.app/848484'/>][color-light-gray-normal][<img valign='middle' src='https://readme-swatches.vercel.app/999999'/>][color-light-gray-high][<img valign='middle' src='https://readme-swatches.vercel.app/515151'/>][color-light-gray-lowest]`MapColor.COLOR_LIGHT_GRAY`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/6C5935'/>][color-cyan-low][<img valign='middle' src='https://readme-swatches.vercel.app/846D41'/>][color-cyan-normal][<img valign='middle' src='https://readme-swatches.vercel.app/997F4C'/>][color-cyan-high][<img valign='middle' src='https://readme-swatches.vercel.app/514328'/>][color-cyan-lowest]`MapColor.COLOR_CYAN`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/7D2C59'/>][color-purple-low][<img valign='middle' src='https://readme-swatches.vercel.app/99366D'/>][color-purple-normal][<img valign='middle' src='https://readme-swatches.vercel.app/B23F7F'/>][color-purple-high][<img valign='middle' src='https://readme-swatches.vercel.app/5E2143'/>][color-purple-lowest]`MapColor.COLOR_PURPLE`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/7D3524'/>][color-blue-low][<img valign='middle' src='https://readme-swatches.vercel.app/99412C'/>][color-blue-normal][<img valign='middle' src='https://readme-swatches.vercel.app/B24C33'/>][color-blue-high][<img valign='middle' src='https://readme-swatches.vercel.app/5E281B'/>][color-blue-lowest]`MapColor.COLOR_BLUE`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/243548'/>][color-brown-low][<img valign='middle' src='https://readme-swatches.vercel.app/2C4158'/>][color-brown-normal][<img valign='middle' src='https://readme-swatches.vercel.app/334C66'/>][color-brown-high][<img valign='middle' src='https://readme-swatches.vercel.app/1B2836'/>][color-brown-lowest]`MapColor.COLOR_BROWN`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/245948'/>][color-green-low][<img valign='middle' src='https://readme-swatches.vercel.app/2C6D58'/>][color-green-normal][<img valign='middle' src='https://readme-swatches.vercel.app/337F66'/>][color-green-high][<img valign='middle' src='https://readme-swatches.vercel.app/1B4336'/>][color-green-lowest]`MapColor.COLOR_GREEN`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/24246C'/>][color-red-low][<img valign='middle' src='https://readme-swatches.vercel.app/2C2C84'/>][color-red-normal][<img valign='middle' src='https://readme-swatches.vercel.app/333399'/>][color-red-high][<img valign='middle' src='https://readme-swatches.vercel.app/1B1B51'/>][color-red-lowest]`MapColor.COLOR_RED`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/111111'/>][color-black-low][<img valign='middle' src='https://readme-swatches.vercel.app/151515'/>][color-black-normal][<img valign='middle' src='https://readme-swatches.vercel.app/191919'/>][color-black-high][<img valign='middle' src='https://readme-swatches.vercel.app/0D0D0D'/>][color-black-lowest]`MapColor.COLOR_BLACK`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/36A8B0'/>][gold-low][<img valign='middle' src='https://readme-swatches.vercel.app/42CDD7'/>][gold-normal][<img valign='middle' src='https://readme-swatches.vercel.app/4DEEFA'/>][gold-high][<img valign='middle' src='https://readme-swatches.vercel.app/287E84'/>][gold-lowest]`MapColor.GOLD`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/969A40'/>][diamond-low][<img valign='middle' src='https://readme-swatches.vercel.app/B7BC4F'/>][diamond-normal][<img valign='middle' src='https://readme-swatches.vercel.app/D5DB5C'/>][diamond-high][<img valign='middle' src='https://readme-swatches.vercel.app/707330'/>][diamond-lowest]`MapColor.DIAMOND`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/B45A34'/>][lapis-low][<img valign='middle' src='https://readme-swatches.vercel.app/DC6E3F'/>][lapis-normal][<img valign='middle' src='https://readme-swatches.vercel.app/FF804A'/>][lapis-high][<img valign='middle' src='https://readme-swatches.vercel.app/874327'/>][lapis-lowest]`MapColor.LAPIS`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/289900'/>][emerald-low][<img valign='middle' src='https://readme-swatches.vercel.app/32BB00'/>][emerald-normal][<img valign='middle' src='https://readme-swatches.vercel.app/3AD900'/>][emerald-high][<img valign='middle' src='https://readme-swatches.vercel.app/1E7200'/>][emerald-lowest]`MapColor.EMERALD`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/223C5B'/>][podzol-low][<img valign='middle' src='https://readme-swatches.vercel.app/2A4A6F'/>][podzol-normal][<img valign='middle' src='https://readme-swatches.vercel.app/315681'/>][podzol-high][<img valign='middle' src='https://readme-swatches.vercel.app/192D44'/>][podzol-lowest]`MapColor.PODZOL`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/00014F'/>][nether-low][<img valign='middle' src='https://readme-swatches.vercel.app/000160'/>][nether-normal][<img valign='middle' src='https://readme-swatches.vercel.app/000270'/>][nether-high][<img valign='middle' src='https://readme-swatches.vercel.app/00013B'/>][nether-lowest]`MapColor.NETHER`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/717C93'/>][terracotta-white-low][<img valign='middle' src='https://readme-swatches.vercel.app/8A98B4'/>][terracotta-white-normal][<img valign='middle' src='https://readme-swatches.vercel.app/A1B1D1'/>][terracotta-white-high][<img valign='middle' src='https://readme-swatches.vercel.app/555D6E'/>][terracotta-white-lowest]`MapColor.TERRACOTTA_WHITE`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/193970'/>][terracotta-orange-low][<img valign='middle' src='https://readme-swatches.vercel.app/1F4689'/>][terracotta-orange-normal][<img valign='middle' src='https://readme-swatches.vercel.app/24529F'/>][terracotta-orange-high][<img valign='middle' src='https://readme-swatches.vercel.app/132B54'/>][terracotta-orange-lowest]`MapColor.TERRACOTTA_ORANGE`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/4C3D69'/>][terracotta-magenta-low][<img valign='middle' src='https://readme-swatches.vercel.app/5D4B80'/>][terracotta-magenta-normal][<img valign='middle' src='https://readme-swatches.vercel.app/6C5795'/>][terracotta-magenta-high][<img valign='middle' src='https://readme-swatches.vercel.app/392E4E'/>][terracotta-magenta-lowest]`MapColor.TERRACOTTA_MAGENTA`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/614C4F'/>][terracotta-light-blue-low][<img valign='middle' src='https://readme-swatches.vercel.app/775D60'/>][terracotta-light-blue-normal][<img valign='middle' src='https://readme-swatches.vercel.app/8A6C70'/>][terracotta-light-blue-high][<img valign='middle' src='https://readme-swatches.vercel.app/49393B'/>][terracotta-light-blue-lowest]`MapColor.TERRACOTTA_LIGHT_BLUE`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/195D83'/>][terracotta-yellow-low][<img valign='middle' src='https://readme-swatches.vercel.app/1F72A0'/>][terracotta-yellow-normal][<img valign='middle' src='https://readme-swatches.vercel.app/2485BA'/>][terracotta-yellow-high][<img valign='middle' src='https://readme-swatches.vercel.app/134662'/>][terracotta-yellow-lowest]`MapColor.TERRACOTTA_YELLOW`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/255248'/>][terracotta-light-green-low][<img valign='middle' src='https://readme-swatches.vercel.app/2D6458'/>][terracotta-light-green-normal][<img valign='middle' src='https://readme-swatches.vercel.app/357567'/>][terracotta-light-green-high][<img valign='middle' src='https://readme-swatches.vercel.app/1C3D36'/>][terracotta-light-green-lowest]`MapColor.TERRACOTTA_LIGHT_GREEN`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/373670'/>][terracotta-pink-low][<img valign='middle' src='https://readme-swatches.vercel.app/43428A'/>][terracotta-pink-normal][<img valign='middle' src='https://readme-swatches.vercel.app/4E4DA0'/>][terracotta-pink-high][<img valign='middle' src='https://readme-swatches.vercel.app/292854'/>][terracotta-pink-lowest]`MapColor.TERRACOTTA_PINK`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/181C28'/>][terracotta-gray-low][<img valign='middle' src='https://readme-swatches.vercel.app/1E2331'/>][terracotta-gray-normal][<img valign='middle' src='https://readme-swatches.vercel.app/232939'/>][terracotta-gray-high][<img valign='middle' src='https://readme-swatches.vercel.app/12151E'/>][terracotta-gray-lowest]`MapColor.TERRACOTTA_GRAY`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/454B5F'/>][terracotta-light-gray-low][<img valign='middle' src='https://readme-swatches.vercel.app/545C74'/>][terracotta-light-gray-normal][<img valign='middle' src='https://readme-swatches.vercel.app/626B87'/>][terracotta-light-gray-high][<img valign='middle' src='https://readme-swatches.vercel.app/333847'/>][terracotta-light-gray-lowest]`MapColor.TERRACOTTA_LIGHT_GRAY`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/40403D'/>][terracotta-cyan-low][<img valign='middle' src='https://readme-swatches.vercel.app/4F4F4B'/>][terracotta-cyan-normal][<img valign='middle' src='https://readme-swatches.vercel.app/5C5C57'/>][terracotta-cyan-high][<img valign='middle' src='https://readme-swatches.vercel.app/30302E'/>][terracotta-cyan-lowest]`MapColor.TERRACOTTA_CYAN`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/3E3356'/>][terracotta-purple-low][<img valign='middle' src='https://readme-swatches.vercel.app/4B3E69'/>][terracotta-purple-normal][<img valign='middle' src='https://readme-swatches.vercel.app/58497A'/>][terracotta-purple-high][<img valign='middle' src='https://readme-swatches.vercel.app/2E2640'/>][terracotta-purple-lowest]`MapColor.TERRACOTTA_PURPLE`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/402B35'/>][terracotta-blue-low][<img valign='middle' src='https://readme-swatches.vercel.app/4F3541'/>][terracotta-blue-normal][<img valign='middle' src='https://readme-swatches.vercel.app/5C3E4C'/>][terracotta-blue-high][<img valign='middle' src='https://readme-swatches.vercel.app/302028'/>][terracotta-blue-lowest]`MapColor.TERRACOTTA_BLUE`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/182335'/>][terracotta-brown-low][<img valign='middle' src='https://readme-swatches.vercel.app/1E2B41'/>][terracotta-brown-normal][<img valign='middle' src='https://readme-swatches.vercel.app/23324C'/>][terracotta-brown-high][<img valign='middle' src='https://readme-swatches.vercel.app/121A28'/>][terracotta-brown-lowest]`MapColor.TERRACOTTA_BROWN`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/1D3935'/>][terracotta-green-low][<img valign='middle' src='https://readme-swatches.vercel.app/244641'/>][terracotta-green-normal][<img valign='middle' src='https://readme-swatches.vercel.app/2A524C'/>][terracotta-green-high][<img valign='middle' src='https://readme-swatches.vercel.app/162B28'/>][terracotta-green-lowest]`MapColor.TERRACOTTA_GREEN`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/202A64'/>][terracotta-red-low][<img valign='middle' src='https://readme-swatches.vercel.app/27337A'/>][terracotta-red-normal][<img valign='middle' src='https://readme-swatches.vercel.app/2E3C8E'/>][terracotta-red-high][<img valign='middle' src='https://readme-swatches.vercel.app/181F4B'/>][terracotta-red-lowest]`MapColor.TERRACOTTA_RED`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/0B0F1A'/>][terracotta-black-low][<img valign='middle' src='https://readme-swatches.vercel.app/0D121F'/>][terracotta-black-normal][<img valign='middle' src='https://readme-swatches.vercel.app/101625'/>][terracotta-black-high][<img valign='middle' src='https://readme-swatches.vercel.app/080B13'/>][terracotta-black-lowest]`MapColor.TERRACOTTA_BLACK`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/222185'/>][crimson-nylium-low][<img valign='middle' src='https://readme-swatches.vercel.app/2A29A3'/>][crimson-nylium-normal][<img valign='middle' src='https://readme-swatches.vercel.app/3130BD'/>][crimson-nylium-high][<img valign='middle' src='https://readme-swatches.vercel.app/191964'/>][crimson-nylium-lowest]`MapColor.CRIMSON_NYLIUM`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/442C68'/>][crimson-stem-low][<img valign='middle' src='https://readme-swatches.vercel.app/53367F'/>][crimson-stem-normal][<img valign='middle' src='https://readme-swatches.vercel.app/613F94'/>][crimson-stem-high][<img valign='middle' src='https://readme-swatches.vercel.app/33214E'/>][crimson-stem-lowest]`MapColor.CRIMSON_STEM`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/141140'/>][crimson-hyphae-low][<img valign='middle' src='https://readme-swatches.vercel.app/19154F'/>][crimson-hyphae-normal][<img valign='middle' src='https://readme-swatches.vercel.app/1D195C'/>][crimson-hyphae-high][<img valign='middle' src='https://readme-swatches.vercel.app/0F0D30'/>][crimson-hyphae-lowest]`MapColor.CRIMSON_HYPHAE`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/5E580F'/>][warped-nylium-low][<img valign='middle' src='https://readme-swatches.vercel.app/736C12'/>][warped-nylium-normal][<img valign='middle' src='https://readme-swatches.vercel.app/867E16'/>][warped-nylium-high][<img valign='middle' src='https://readme-swatches.vercel.app/46420B'/>][warped-nylium-lowest]`MapColor.WARPED_NYLIUM`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/626428'/>][warped-stem-low][<img valign='middle' src='https://readme-swatches.vercel.app/787A32'/>][warped-stem-normal][<img valign='middle' src='https://readme-swatches.vercel.app/8C8E3A'/>][warped-stem-high][<img valign='middle' src='https://readme-swatches.vercel.app/4A4B1E'/>][warped-stem-lowest]`MapColor.WARPED_STEM`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/2B1F3C'/>][warped-hyphae-low][<img valign='middle' src='https://readme-swatches.vercel.app/35254A'/>][warped-hyphae-normal][<img valign='middle' src='https://readme-swatches.vercel.app/3E2C56'/>][warped-hyphae-high][<img valign='middle' src='https://readme-swatches.vercel.app/20172D'/>][warped-hyphae-lowest]`MapColor.WARPED_HYPHAE`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/5D7F0E'/>][warped-wart-block-low][<img valign='middle' src='https://readme-swatches.vercel.app/729B11'/>][warped-wart-block-normal][<img valign='middle' src='https://readme-swatches.vercel.app/85B414'/>][warped-wart-block-high][<img valign='middle' src='https://readme-swatches.vercel.app/465F0A'/>][warped-wart-block-lowest]`MapColor.WARPED_WART_BLOCK`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/464646'/>][deepslate-low][<img valign='middle' src='https://readme-swatches.vercel.app/565656'/>][deepslate-normal][<img valign='middle' src='https://readme-swatches.vercel.app/646464'/>][deepslate-high][<img valign='middle' src='https://readme-swatches.vercel.app/343434'/>][deepslate-lowest]`MapColor.DEEPSLATE`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/677B98'/>][raw-iron-low][<img valign='middle' src='https://readme-swatches.vercel.app/7E96BA'/>][raw-iron-normal][<img valign='middle' src='https://readme-swatches.vercel.app/93AFD8'/>][raw-iron-high][<img valign='middle' src='https://readme-swatches.vercel.app/4D5C72'/>][raw-iron-lowest]`MapColor.RAW_IRON`<br>
+[<img valign='middle' src='https://readme-swatches.vercel.app/697559'/>][glow-lichen-low][<img valign='middle' src='https://readme-swatches.vercel.app/81906D'/>][glow-lichen-normal][<img valign='middle' src='https://readme-swatches.vercel.app/96A77F'/>][glow-lichen-high][<img valign='middle' src='https://readme-swatches.vercel.app/4F5843'/>][glow-lichen-lowest]`MapColor.GLOW_LICHEN`
 
 [grass-low]: https://www.colorhexa.com/277D59
 [grass-normal]: https://www.colorhexa.com/30996D
