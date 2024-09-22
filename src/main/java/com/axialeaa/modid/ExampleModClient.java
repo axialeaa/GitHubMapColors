@@ -94,7 +94,7 @@ public class ExampleModClient implements ClientModInitializer {
 		writer.write("\n");
 	}
 
-	public static int getHexColor(MapColor mapColor, MapColor.Brightness brightness) {
+	private static int getHexColor(MapColor mapColor, MapColor.Brightness brightness) {
 		int r = (mapColor.col >> 16 & 0xFF) * brightness.modifier / 255;
 		int g = (mapColor.col >>  8 & 0xFF) * brightness.modifier / 255;
 		int b = (mapColor.col       & 0xFF) * brightness.modifier / 255;
