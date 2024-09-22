@@ -1,5 +1,6 @@
 package com.axialeaa.modid;
 
+import it.unimi.dsi.fastutil.objects.Object2ObjectArrayMap;
 import net.fabricmc.api.ClientModInitializer;
 import net.minecraft.world.level.material.MapColor;
 
@@ -7,10 +8,8 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.lang.reflect.Field;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
-import java.util.Map;
 import java.util.stream.Stream;
 
 public class ExampleModClient implements ClientModInitializer {
@@ -18,7 +17,7 @@ public class ExampleModClient implements ClientModInitializer {
 	private static final String LINK = "[%s]: https://www.colorhexa.com/%s";
 	private static final String IMAGE = "[<img valign='middle' src='https://readme-swatches.vercel.app/%s'/>][%s]";
 
-	private static final Map<String, String> REFERENCES = new HashMap<>();
+	private static final Object2ObjectArrayMap<String, String> REFERENCES = new Object2ObjectArrayMap<>();
 
 	@Override
 	public void onInitializeClient() {
@@ -39,10 +38,6 @@ public class ExampleModClient implements ClientModInitializer {
 		stream = stream.filter(field -> field.getType() == MapColor.class);
 
 		return stream.toList();
-	}
-
-	private static String toPaddedHexString(int i) {
-		return String.format("%06X", i);
 	}
 
 	private static void printMapColors(OutputStreamWriter writer) throws IOException {
@@ -75,9 +70,7 @@ public class ExampleModClient implements ClientModInitializer {
 
 	private static void printColorsWithReferences(String fieldName, MapColor mapColor, OutputStreamWriter writer) throws IOException {
 		for (MapColor.Brightness brightness : MapColor.Brightness.values()) {
-			int argb = mapColor.calculateRGBColor(brightness);
-			argb = argb & 0xFFFFFF;
-
+			int argb = getHexColor(mapColor, brightness);
 			String color = toPaddedHexString(argb);
 
 			String formatted = "%s_%s".formatted(fieldName, brightness);
@@ -99,6 +92,18 @@ public class ExampleModClient implements ClientModInitializer {
 
 	private static void newLine(OutputStreamWriter writer) throws IOException {
 		writer.write("\n");
+	}
+
+	public static int getHexColor(MapColor mapColor, MapColor.Brightness brightness) {
+		int r = (mapColor.col >> 16 & 0xFF) * brightness.modifier / 255;
+		int g = (mapColor.col >>  8 & 0xFF) * brightness.modifier / 255;
+		int b = (mapColor.col       & 0xFF) * brightness.modifier / 255;
+
+		return r << 16 | g << 8 | b;
+	}
+
+	private static String toPaddedHexString(int i) {
+		return String.format("%06X", i);
 	}
 
 }
