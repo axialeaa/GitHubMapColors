@@ -60,19 +60,26 @@ public class ExampleModClient implements ClientModInitializer {
 				throw new RuntimeException(e);
 			}
 
-			String color = toHexString(mapColor.col);
-			String markdownLinkRef = name.toLowerCase(Locale.ROOT).replace('_', '-');
+			String imageLink = "[<img valign='middle' src='https://readme-swatches.vercel.app/%s?style=round'/>][%s]";
+			String reference = name.toLowerCase(Locale.ROOT).replace('_', '-');
 
-			String imageLink = "[<img valign='middle' src='https://readme-swatches.vercel.app/%s?style=round'/>`MapColor.%s`][%s]";
+			for (MapColor.Brightness brightness : MapColor.Brightness.values()) {
+				int argb = mapColor.calculateRGBColor(brightness);
+				argb = argb & ~0xFF000000;
 
-			writer.write(imageLink.formatted(color, name, markdownLinkRef));
+				String color = toHexString(argb);
+				String withBrightness = reference + "-" + brightness.toString().toLowerCase(Locale.ROOT);
+
+				writer.write(imageLink.formatted(color, withBrightness));
+				REFERENCES.put(withBrightness, color);
+			}
+
+			writer.write("`MapColor.%s`".formatted(name));
 
 			if (fields.indexOf(field) < fields.size() - 1)
 				writer.write("<br>");
 
 			writer.write("\n");
-
-			REFERENCES.put(markdownLinkRef, color);
 		}
 	}
 
