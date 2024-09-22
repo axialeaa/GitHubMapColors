@@ -1,6 +1,5 @@
 package com.axialeaa.modid;
 
-import it.unimi.dsi.fastutil.objects.Object2ObjectArrayMap;
 import net.fabricmc.api.ClientModInitializer;
 import net.minecraft.world.level.material.MapColor;
 
@@ -8,6 +7,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.lang.reflect.Field;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
@@ -15,7 +15,10 @@ import java.util.stream.Stream;
 
 public class ExampleModClient implements ClientModInitializer {
 
-	private static final Map<String, String> REFERENCES = new Object2ObjectArrayMap<>();
+	private static final String LINK = "[%s]: https://www.colorhexa.com/%s";
+	private static final String IMAGE = "[<img valign='middle' src='https://readme-swatches.vercel.app/%s'/>][%s]";
+
+	private static final Map<String, String> REFERENCES = new HashMap<>();
 
 	@Override
 	public void onInitializeClient() {
@@ -23,7 +26,6 @@ public class ExampleModClient implements ClientModInitializer {
 
 		try (OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream("README.md"))) {
 			printMapColors(writer);
-			writer.write("\n");
 			printLinks(writer);
         } catch (IOException e) {
 			throw new RuntimeException(e);
@@ -72,8 +74,6 @@ public class ExampleModClient implements ClientModInitializer {
 	}
 
 	private static void printColorsWithReferences(String fieldName, MapColor mapColor, OutputStreamWriter writer) throws IOException {
-		String imageLink = "[<img valign='middle' src='https://readme-swatches.vercel.app/%s'/>][%s]";
-
 		for (MapColor.Brightness brightness : MapColor.Brightness.values()) {
 			int argb = mapColor.calculateRGBColor(brightness);
 			argb = argb & 0xFFFFFF;
@@ -83,19 +83,17 @@ public class ExampleModClient implements ClientModInitializer {
 			String formatted = "%s_%s".formatted(fieldName, brightness);
 			String lowerCase = formatted.toLowerCase(Locale.ROOT).replace('_', '-');
 
-			writer.write(imageLink.formatted(color, lowerCase));
+			writer.write(IMAGE.formatted(color, lowerCase));
 			REFERENCES.put(lowerCase, color);
 		}
 	}
 
 	private static void printLinks(OutputStreamWriter writer) throws IOException {
-		String link = "[%s]: https://www.colorhexa.com/%s";
-
 		for (String ref : REFERENCES.keySet()) {
 			String color = REFERENCES.get(ref);
 
-			writer.write(link.formatted(ref, color));
 			newLine(writer);
+			writer.write(LINK.formatted(ref, color));
 		}
 	}
 
